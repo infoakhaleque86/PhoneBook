@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #28547B ;
+}
+
+@layer components {
+    .inputs {
+        @apply p-2 bg-transparent outline-none text-yellow-400 rounded mx-3;
+    }
+    .btn {
+		@apply p-2 rounded-lg bg-yellow-500 text-black disabled:bg-gray-500;
+	} 
+}
+
+.nomargin {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
